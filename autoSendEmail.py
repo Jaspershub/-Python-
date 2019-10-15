@@ -22,8 +22,8 @@ assert len(errs) == 0,errs
 sleep(10)   #wait for mail to be delivered
 
 recvSvr=POP3(POP3SVR)
-recvSvr.user('cn190185@kpmg.com')
-recvSvr.pass_('Jdd199859')
+recvSvr.user('XXX')
+recvSvr.pass_('XXX')
 rsp,msg,siz=recvSvr.retr(recvSvr.stat()[0])
 #strip headers and compare to orig msg
 sep=msg.index('')
