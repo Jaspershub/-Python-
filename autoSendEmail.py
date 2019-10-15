@@ -4,10 +4,10 @@ from smtplib import SMTP
 from poplib import POP3
 from time import sleep
 
-SMTPSVR = 'cnshaexc901.cn.kworld.kpmg.com'
-POP3SVT = 'cnshaexc901.cn.kworld.kpmg.com'
+SMTPSVR = 'cnshaexc901.cn.kworld.XXX.com'
+POP3SVT = 'cnshaexc901.cn.kworld.XXX.com'
 
-who = 'cn190185@kpmg.com'
+who = 'XXX'
 body = '''\
 From: %(who)s
 To: %(who)s
